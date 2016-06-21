@@ -16,6 +16,10 @@ GENERATE_LATEX = NO
 # Supress Man page generation
 GENERATE_MAN = NO
 
+# Make sure to fully document global static functions
+EXTRACT_ALL = YES
+EXTRACT_STATIC = YES
+
 # Dash compulsory setting (https://kapeli.com/docsets#doxygen)
 GENERATE_DOCSET   = YES
 # Dash optional settings

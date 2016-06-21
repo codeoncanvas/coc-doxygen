@@ -1,8 +1,8 @@
 # Project Name
-PROJECT_NAME = "COC Libs"
+PROJECT_NAME = "CoC libs"
 
 # Source files
-INPUT = ../coc-button/src ../coc-core/src ../coc-fbowrapper/src ../coc-flycapture/src ../coc-glm/src ../coc-gui/src ../coc-pahomqtt/src ../coc-poly2tri/src ../coc-scene/src ../coc-scrollview/src ../coc-soundmixer/src ../coc-sqlite/src ../coc-stencil/src ../coc-utils/src
+INPUT = ../coc-button/src ../coc-core/src ../coc-fbowrapper/src ../coc-flycapture/src ../coc-gui/src ../coc-pahomqtt/src ../coc-poly2tri/src ../coc-scene/src ../coc-scrollview/src ../coc-soundmixer/src ../coc-sqlite/src ../coc-stencil/src ../coc-utils/src
 
 # Remove full file paths from generated documentation
 FULL_PATH_NAMES = NO
@@ -15,3 +15,10 @@ GENERATE_LATEX = NO
 
 # Supress Man page generation
 GENERATE_MAN = NO
+
+# Dash compulsory setting (https://kapeli.com/docsets#doxygen)
+GENERATE_DOCSET   = YES
+# Dash optional settings
+#DISABLE_INDEX     = YES 
+#SEARCHENGINE      = NO
+#GENERATE_TREEVIEW = NO
